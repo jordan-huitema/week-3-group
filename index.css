@@ -92,3 +92,35 @@ margin-right: auto;
 .main-content h2 {
 background-color: aquamarine;
 }
+.side-article-contents {
+    position: absolute;
+    right: 15px;
+    margin-top: 50px;
+    width: 175px;
+    height: 525px;
+    padding: 15px;
+    padding-left: 10px;
+    border: 2px solid darkgray;
+    border-style: ridge;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.contents-header {
+    color: black;
+    font-size: 2em;
+    text-align: left;
+    padding: 5px;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+}
+
+.contents-link {
+    color: darkblue;
+    font-size: 1em;
+    text-align: left;
+}
+
+.contents-footer {
+    border-top: 2px solid darkgray;
+}
