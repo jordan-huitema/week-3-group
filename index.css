@@ -1,19 +1,26 @@
 .side-article-contents {
     position: absolute;
-    right: 50px;
+    right: 15px;
     margin-top: 75px;
-    width: 200px;
+    width: 175px;
     height: 500px;
-    padding: 25px;
-    padding-left: 25px;
-    border: 5px solid darkslategray;
+    padding: 15px;
+    padding-left: 10px;
+    border: 3px solid darkslategray;
+    border-style: ridge;
+    border-radius: 25px;
     background-color: rgb(44, 44, 44);
 }
 
 .contents-header {
     color: whitesmoke;
-    font-size: 3em;
+    font-size: 2em;
     text-align: left;
+    padding: 5px;
+    border-top: 3px solid darkslategray;
+    border-bottom: 3px solid darkslategray;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
 }
 
 .contents-link {
@@ -22,3 +29,7 @@
     text-align: left;
 }
 
+.contents-footer {
+    border-top: 3px solid darkslategray;
+    border-top-style: ridge;
+}
