@@ -1,0 +1,22 @@
+.side-article-contents {
+    position: absolute;
+    right: 50px;
+    margin-top: 75px;
+    width: 250px;
+    height: 500px;
+    padding: 25px;
+    border: 5px solid darkslategray;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+.contents-header {
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+.contents-link {
+    color: lightblue;
+    font-size: medium;
+}
+
