@@ -84,3 +84,11 @@ img#navPic {
 .dropdown:hover .dropbtn {
   color: red;
 }
+.main-content{
+width: 60%;
+margin-left: auto;
+margin-right: auto;   
+}
+.main-content h2 {
+background-color: aquamarine;
+}
