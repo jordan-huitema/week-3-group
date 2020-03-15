@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap");
 body {
     margin: 0;
+    background-color:rgb(222,234,40);
 }
 
 nav ul {
@@ -126,7 +127,7 @@ img#navPic {
 }
 
 .contents-footer {
-    border-top: 2px solid darkgray;
+    border-top: 2px solid rgb(0, 0, 0);
 }
 
 .center {
@@ -137,7 +138,7 @@ img#navPic {
 }
 
 .navbar {
-    background-color: rgb(36, 36, 36);
+    background-color:#f6f6f6;
     overflow: hidden;
     bottom: 0;
     width: 100%;
@@ -147,10 +148,11 @@ img#navPic {
 .navbar a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: black;
     text-align: center;
     width:11%;
     padding-top: 15px;
+    padding-bottom: 15px;
     text-decoration: none;
 }
 
